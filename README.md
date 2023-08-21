@@ -3,7 +3,7 @@
 
 ## Серверная часть:
 
-
+https://github.com/Volivanmail/chat_ws_serv.git
 
 ## Github-pages:
 
