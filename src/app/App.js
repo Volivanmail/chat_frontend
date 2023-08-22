@@ -6,7 +6,7 @@ export default async function MainFoo() {
     const pop = new EnterPop('Выберите псевдоним');
     const { popup, submit, userName } = pop.create();
 
-    const ws = new WebSocket('ws://localhost:8080');
+    const ws = new WebSocket('ws://friday-chat.onrender.com/');
 
     ws.onopen = (() => {
       console.log('---checking for initial data---');
