@@ -7,7 +7,7 @@ import Time from './Time.js';
 import Mess from './Mess.js';
 
 export default function chatWin() {
-  const ws = new ReconnectingWebSocket('ws://localhost:8080');
+  const ws = new ReconnectingWebSocket('wss://friday-chat.onrender.com/');
   const currentUser = localStorage.getItem('currentUser');
   window.addEventListener('beforeunload', (e) => {
     if (ws.readyState !== 1) {
